@@ -1,0 +1,162 @@
+[
+  {
+    "case_id": 1,
+    "case_name": "positive_planning_project",
+    "category": "positive_planning",
+    "expected_trajectory": "improving / planning_progress",
+    "expected_need": "action_planning",
+    "conversation": "I feel proud because I finally finished my project.\nMy professor gave me some positive feedback.\nI feel more motivated to keep improving it.\nI want to plan my next steps and make it even better."
+  },
+  {
+    "case_id": 2,
+    "case_name": "positive_planning_interview",
+    "category": "positive_planning",
+    "expected_trajectory": "improving / planning_progress",
+    "expected_need": "action_planning",
+    "conversation": "I was nervous about my interview, but it went better than expected.\nThe interviewer seemed interested in my project.\nI feel more confident now.\nCan you help me prepare for the next round?"
+  },
+  {
+    "case_id": 3,
+    "case_name": "negative_breakup_escalating",
+    "category": "negative_escalating",
+    "expected_trajectory": "persistent_negative / persistent_negative_escalating",
+    "expected_need": "emotional_regulation",
+    "conversation": "I just broke up with my girlfriend. I feel terrible.\nI don't know what to do now.\nMy life feels so empty.\nI can't calm down. Everything feels too much."
+  },
+  {
+    "case_id": 4,
+    "case_name": "negative_exam_overwhelmed",
+    "category": "negative_escalating",
+    "expected_trajectory": "persistent_negative / persistent_negative_escalating",
+    "expected_need": "emotional_regulation",
+    "conversation": "I feel really bad about my exam.\nI don't know what to do now.\nEverything feels worse when I think about it.\nI can't calm down. It feels like too much."
+  },
+  {
+    "case_id": 5,
+    "case_name": "study_planning_short_context",
+    "category": "study_planning_ambiguous",
+    "expected_trajectory": "planning_progress",
+    "expected_need": "action_planning",
+    "conversation": "I want to plan my next steps and make it better.\nMaybe on study.\nI want to focus more and improve my learning habits.\nCan you help me make a simple plan for tomorrow?"
+  },
+  {
+    "case_id": 6,
+    "case_name": "time_management_planning",
+    "category": "study_planning_ambiguous",
+    "expected_trajectory": "planning_progress",
+    "expected_need": "action_planning",
+    "conversation": "I think I need to organize my life a bit.\nTime management might be the first thing.\nI am not sure how to start.\nCan you help me break it into small steps?"
+  },
+  {
+    "case_id": 7,
+    "case_name": "sarcastic_app_complaint",
+    "category": "sarcastic_complaint",
+    "expected_trajectory": "worsening / persistent_negative",
+    "expected_need": "practical_guidance",
+    "conversation": "Great, another update that breaks everything.\nI just love waiting forever for this app to load.\nNow I cannot even finish my work on time.\nWhat should I do now?"
+  },
+  {
+    "case_id": 8,
+    "case_name": "sarcastic_code_complaint",
+    "category": "sarcastic_complaint",
+    "expected_trajectory": "worsening / persistent_negative",
+    "expected_need": "practical_guidance",
+    "conversation": "Amazing, the code failed again right before my deadline.\nI love losing time because of random errors.\nThis is making my work impossible.\nHow can I fix this quickly?"
+  },
+  {
+    "case_id": 9,
+    "case_name": "interview_anxiety_reassurance",
+    "category": "anxiety_reassurance",
+    "expected_trajectory": "persistent_negative / stable",
+    "expected_need": "reassurance",
+    "conversation": "I am worried about my interview.\nI keep thinking I might fail.\nI prepared, but I still feel nervous.\nCan you reassure me a little?"
+  },
+  {
+    "case_id": 10,
+    "case_name": "presentation_anxiety_reassurance",
+    "category": "anxiety_reassurance",
+    "expected_trajectory": "persistent_negative / stable",
+    "expected_need": "reassurance",
+    "conversation": "My presentation is coming soon and I feel anxious.\nI know I practiced, but I still doubt myself.\nI am scared I will mess up.\nI need some encouragement."
+  },
+  {
+    "case_id": 11,
+    "case_name": "emotional_validation_friend_conflict",
+    "category": "emotional_validation",
+    "expected_trajectory": "persistent_negative / stable",
+    "expected_need": "emotional_validation",
+    "conversation": "I had an argument with my close friend.\nI feel hurt because I thought they understood me.\nI don't really want advice right now.\nI just want someone to understand why I feel this way."
+  },
+  {
+    "case_id": 12,
+    "case_name": "emotional_validation_family_pressure",
+    "category": "emotional_validation",
+    "expected_trajectory": "persistent_negative / stable",
+    "expected_need": "emotional_validation",
+    "conversation": "My family keeps comparing me with other people.\nIt makes me feel like nothing I do is enough.\nI know they may not mean to hurt me.\nBut I feel really small when they say those things."
+  },
+  {
+    "case_id": 13,
+    "case_name": "practical_guidance_bug_fix",
+    "category": "practical_guidance",
+    "expected_trajectory": "stable / planning_progress",
+    "expected_need": "practical_guidance",
+    "conversation": "My program keeps crashing when I run the evaluation script.\nThe error message says a file cannot be found.\nI checked the folder but I am still confused.\nHow should I debug this step by step?"
+  },
+  {
+    "case_id": 14,
+    "case_name": "practical_guidance_resume_revision",
+    "category": "practical_guidance",
+    "expected_trajectory": "stable / planning_progress",
+    "expected_need": "practical_guidance",
+    "conversation": "I want to improve my resume for a data science internship.\nI have projects and one testing internship, but I don't know how to describe them.\nI want the bullets to sound more concrete.\nCan you tell me what to change first?"
+  },
+  {
+    "case_id": 15,
+    "case_name": "fluctuating_mixed_progress",
+    "category": "fluctuating",
+    "expected_trajectory": "fluctuating",
+    "expected_need": "reassurance / practical_guidance",
+    "conversation": "I felt good this morning because I finished part of my report.\nThen I saw other people's progress and felt behind again.\nAfter dinner I calmed down a little.\nNow I am not sure if I am doing okay or just falling behind."
+  },
+  {
+    "case_id": 16,
+    "case_name": "fluctuating_job_search",
+    "category": "fluctuating",
+    "expected_trajectory": "fluctuating",
+    "expected_need": "reassurance",
+    "conversation": "Yesterday I felt hopeful about my job applications.\nToday I got another rejection email.\nPart of me thinks I can keep trying.\nAnother part of me feels like maybe I am not good enough."
+  },
+  {
+    "case_id": 17,
+    "case_name": "high_risk_distress",
+    "category": "high_risk_worsening",
+    "expected_trajectory": "high_risk_worsening",
+    "expected_need": "emotional_regulation",
+    "conversation": "I feel completely hopeless tonight.\nI don't want to talk to anyone.\nI feel like I can't go on like this.\nI need help right now because I don't feel safe being alone."
+  },
+  {
+    "case_id": 18,
+    "case_name": "emotional_regulation_anger",
+    "category": "emotional_regulation",
+    "expected_trajectory": "worsening / persistent_negative_escalating",
+    "expected_need": "emotional_regulation",
+    "conversation": "I am so angry about what happened in the meeting.\nI keep replaying the conversation in my head.\nI want to send a harsh message right now.\nCan you help me calm down before I do something impulsive?"
+  },
+  {
+    "case_id": 19,
+    "case_name": "clarification_unclear_message",
+    "category": "clarification",
+    "expected_trajectory": "stable / unknown",
+    "expected_need": "clarification",
+    "conversation": "I don't know.\nIt is just that thing again.\nMaybe it matters, maybe it doesn't.\nCan you understand what I mean?"
+  },
+  {
+    "case_id": 20,
+    "case_name": "sarcastic_positive_surface_workload",
+    "category": "sarcastic_complaint",
+    "expected_trajectory": "worsening / persistent_negative",
+    "expected_need": "practical_guidance",
+    "conversation": "Perfect, my manager added three more tasks today.\nI absolutely love having no time to breathe.\nNow my original deadline is impossible.\nWhat is the most reasonable thing I can do next?"
+  }
+]

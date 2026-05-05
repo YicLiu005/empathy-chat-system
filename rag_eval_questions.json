@@ -1,0 +1,58 @@
+[
+  {
+    "case_id": "C01",
+    "title": "Positive Planning after Project Feedback",
+    "conversation_text": "I feel proud because I finally finished my project.\nMy professor gave me some positive feedback.\nI feel more motivated to keep improving it.\nI want to plan my next steps and make it even better.",
+    "gold_trajectory": "planning_progress",
+    "gold_need": "action_planning"
+  },
+  {
+    "case_id": "C02",
+    "title": "Breakup and Emotional Escalation",
+    "conversation_text": "I just broke up with my girlfriend. I feel terrible.\nI don't know what to do now.\nMy life feels so empty.\nI can't calm down. Everything feels too much.",
+    "gold_trajectory": "persistent_negative_escalating",
+    "gold_need": "emotional_regulation"
+  },
+  {
+    "case_id": "C03",
+    "title": "Ambiguous Study Planning",
+    "conversation_text": "I want to plan my next steps and make it better.\nMaybe on study.\nI want to focus more and improve my learning habits.\nCan you help me make a simple plan for tomorrow?",
+    "gold_trajectory": "planning_progress",
+    "gold_need": "action_planning"
+  },
+  {
+    "case_id": "C04",
+    "title": "Sarcastic Product Complaint",
+    "conversation_text": "Great, another update that breaks everything.\nI just love waiting forever for this app to load.\nNow I cannot even finish my work on time.\nWhat should I do now?",
+    "gold_trajectory": "persistent_negative",
+    "gold_need": "practical_guidance"
+  },
+  {
+    "case_id": "C05",
+    "title": "Interview Anxiety and Reassurance",
+    "conversation_text": "I am worried about my interview.\nI keep thinking I might fail.\nI prepared, but I still feel nervous.\nCan you reassure me a little?",
+    "gold_trajectory": "persistent_negative",
+    "gold_need": "reassurance"
+  },
+  {
+    "case_id": "C06",
+    "title": "Overwhelmed but Starting to Plan",
+    "conversation_text": "I feel really overwhelmed by all my deadlines.\nI don't know where to start.\nMaybe I should make a list first.\nCan you help me choose the first step?",
+    "gold_trajectory": "planning_progress",
+    "gold_need": "action_planning"
+  },
+  {
+    "case_id": "C07",
+    "title": "Low Motivation and Boredom",
+    "conversation_text": "My life feels so boring lately.\nI don't feel excited about anything.\nI just scroll on my phone for hours.\nI wish I could find something meaningful to do.",
+    "gold_trajectory": "persistent_negative",
+    "gold_need": "emotional_validation"
+  },
+  {
+    "case_id": "C08",
+    "title": "Recovery after Initial Anxiety",
+    "conversation_text": "I felt really anxious about my presentation yesterday.\nI practiced again and now I feel a little better.\nI still worry that I might forget something.\nCan you help me review the key points one more time?",
+    "gold_trajectory": "improving",
+    "gold_need": "practical_guidance"
+  }
+]
